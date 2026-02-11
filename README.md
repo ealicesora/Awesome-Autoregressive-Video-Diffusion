@@ -32,15 +32,20 @@ This repository tracks papers and implementations that directly address this iss
 
 ## Papers
 
+Confirmed conference acceptance (see OpenReview):
+- **Self Forcing** → NeurIPS 2025 (Spotlight): [OpenReview](https://openreview.net/forum?id=mSiN7i0BYH)
+- **Rolling Forcing** → ICLR 2026 (Poster): [OpenReview](https://openreview.net/forum?id=IAyzXjbfwo)
+- **Self-Forcing++** → ICLR 2026 (Poster): [OpenReview](https://openreview.net/forum?id=DzvPiqh23f)
+
 | Year | Title | Paper | Code / Project | Notes |
 |---|---|---|---|---|
-| 2025 | **Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion** | [arXiv:2506.08009](https://arxiv.org/abs/2506.08009) | [Project](https://self-forcing.github.io/) | Starting point of the self-forcing line |
+| 2025 | **Self Forcing: Bridging the Train-Test Gap in Autoregressive Video Diffusion** | [NeurIPS 2025 Spotlight](https://openreview.net/forum?id=mSiN7i0BYH) · [arXiv:2506.08009](https://arxiv.org/abs/2506.08009) | [Project](https://self-forcing.github.io/) | Starting point of the self-forcing line |
 | 2025 | **LongLive: Real-time Interactive Long Video Generation** | [arXiv:2509.22622](https://arxiv.org/abs/2509.22622) | [Code](https://github.com/NVlabs/LongLive) · [Project](https://nvlabs.github.io/LongLive/) | Frame-level causal AR video generation for real-time interactive long videos via KV-recache, streaming long tuning, and short-window attention with a frame sink |
-| 2025 | **Rolling Forcing: Autoregressive Long Video Diffusion in Real Time** | [arXiv:2509.25161](https://arxiv.org/abs/2509.25161) | [Code](https://github.com/TencentARC/RollingForcing) · [Project](https://kunhao-liu.github.io/Rolling_Forcing_Webpage/) | Rolling/chunk-style long-horizon generation |
+| 2025 | **Rolling Forcing: Autoregressive Long Video Diffusion in Real Time** | [ICLR 2026 Poster](https://openreview.net/forum?id=IAyzXjbfwo) · [arXiv:2509.25161](https://arxiv.org/abs/2509.25161) | [Code](https://github.com/TencentARC/RollingForcing) · [Project](https://kunhao-liu.github.io/Rolling_Forcing_Webpage/) | Rolling/chunk-style long-horizon generation |
 | 2025 | **Reward Forcing: Efficient Streaming Video Generation with Rewarded Distribution Matching Distillation** | [arXiv:2512.04678](https://arxiv.org/abs/2512.04678) | [Code](https://github.com/JaydenLyh/Reward-Forcing) | Reward-weighted distillation for streaming quality |
-| 2025 | **Self-Forcing++: Towards Minute-Scale High-Quality Video Generation** | [arXiv:2510.02283](https://arxiv.org/abs/2510.02283) | - | Minute-scale long video extension |
+| 2025 | **Self-Forcing++: Towards Minute-Scale High-Quality Video Generation** | [ICLR 2026 Poster](https://openreview.net/forum?id=DzvPiqh23f) · [arXiv:2510.02283](https://arxiv.org/abs/2510.02283) | - | Minute-scale long video extension |
 | 2025 | **End-to-End Training for Autoregressive Video Diffusion via Self-Resampling** | [arXiv:2512.15702](https://arxiv.org/abs/2512.15702) | - | End-to-end AR training and stabilization |
-| 2025 | **From Slow Bidirectional to Fast Autoregressive Video Diffusion Models** | [arXiv:2412.07772](https://arxiv.org/abs/2412.07772) | [Code](https://github.com/tianweiy/CausVid) · [Project](https://causvid.github.io/) | Bidirectional→causal + Video-DMD distillation for low-latency streaming generation |
+| 2025 | **From Slow Bidirectional to Fast Autoregressive Video Diffusion Models** | [CVPR 2025 Poster](https://cvpr.thecvf.com/) · [Paper PDF](https://openaccess.thecvf.com/) · [arXiv:2412.07772](https://arxiv.org/abs/2412.07772) | [Code](https://github.com/tianweiy/CausVid) | Bidirectional→causal + Video-DMD distillation for low-latency streaming generation |
 | 2025 | **Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression** | [arXiv:2512.05081](https://arxiv.org/abs/2512.05081) | [Code](https://github.com/cvlab-kaist/DeepForcing) · [Project](https://cvlab-kaist.github.io/DeepForcing/) | Training-free KV management (Deep Sink + Participative Compression) for long-horizon video extrapolation |
 | 2025 | **Knot Forcing: Taming Autoregressive Video Diffusion Models for Real-time Infinite Interactive Portrait Animation** | [arXiv:2512.21734](https://arxiv.org/abs/2512.21734) | [Project](https://humanaigc.github.io/knot_forcing_demo_page/) | Real-time infinite interactive portrait animation via chunk-wise generation + temporal knot overlap + running-ahead |
 | 2026 | **Causal Forcing: Autoregressive Diffusion Distillation Done Right for High-Quality Real-Time Interactive Video Generation** | [arXiv:2602.02214](https://arxiv.org/abs/2602.02214) | [Code](https://github.com/thu-ml/Causal-Forcing) · [Project](https://thu-ml.github.io/CausalForcing.github.io/) | AR teacher + ODE init + causal distillation |
