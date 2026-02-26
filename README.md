@@ -1,4 +1,4 @@
-# Awesome Self-Forcing for Video Diffusion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Autoregressive Video Diffusion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of papers, code, and resources about **Self-Forcing-style autoregressive video diffusion**.
 
