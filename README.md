@@ -52,7 +52,7 @@ This repository tracks papers and implementations that directly address this iss
 | 2026 | **Context Forcing: Consistent Autoregressive Video Generation with Long Context** | [arXiv:2602.06028](https://arxiv.org/abs/2602.06028) | [Code](https://github.com/TIGER-AI-Lab/Context-Forcing) · [Project](https://chenshuo20.github.io/Context_Forcing/) | Aligning student context length to a long-context teacher + Slow-Fast Memory for improved long-video consistency |
 | 2026 | **Past- and Future-Informed KV Cache Policy with Salience Estimation in Autoregressive Video Diffusion** | [arXiv:2601.21896](https://arxiv.org/abs/2601.21896) | - | Salience-guided KV cache management (PaFu-KV) for AR video diffusion; distills bidirectional teacher signals via a lightweight SEH to retain top-k informative tokens for better long-horizon quality/efficiency trade-off |
 | 2026 | **Rolling Sink: Bridging Limited-Horizon Training and Open-Ended Testing in Autoregressive Video Diffusion** | [arXiv:2602.07775](https://arxiv.org/abs/2602.07775) | [Code](https://github.com/haodong2000/RollingSink) · [Project](https://rolling-sink.github.io/) | Training-free cache maintenance on top of Self Forcing via attention sink, sliding indices, and rolling/sliding semantics for open-ended minute-scale generation |
-
+| 2025 | **Memory Forcing: Spatio-Temporal Memory for Consistent Scene Generation on Minecraft** | [arXiv:2510.03198](https://arxiv.org/abs/2510.03198) | [Project](https://junchao-cs.github.io/MemoryForcing-demo/) | Hybrid Training + Chained Forward Training + geometry-indexed spatial memory for balancing novel-scene exploration and revisit consistency
 ---
 
 ## Contributing
